@@ -1,0 +1,18 @@
+http://www.pyqtgraph.org/documentation/installation.html
+
+Debian, Ubuntu, and similar Linux: 
+Install using apt by putting “deb http://luke.campagnola.me/debian dev/” in your /etc/apt/sources.list file and install the python-pyqtgraph package.
+	* cd /etc/apt/
+	* sudo nano sources.list
+		* paste deb http://luke.campagnola.me/debian dev/
+		* CTRL+X to exit and say Y to save it
+	* sudo apt-get install python-pyqtgraph
+		* say Y when asked
+
+Make a New file with .py extension.
+paste the "example" in the file:
+
+	import pyqtgraph.examples
+	pyqtgraph.examples.run()
+
+Save and run in terminal with python <yourFileName.y>
